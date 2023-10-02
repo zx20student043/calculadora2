@@ -6,7 +6,7 @@ public class CalculadoraBasica {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Calculadora Básica - Suma");
-        System.out.print("Ingrese el primer número: ");
+        System.out.print("Ingrese el primer número:  ");
         double numero1 = scanner.nextDouble();
 
         System.out.print("Ingrese el segundo número: ");
