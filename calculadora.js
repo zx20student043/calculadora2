@@ -11,12 +11,13 @@ function calcula(){
 	let resta = document.getElementById("resta").checked;
 	let multi = document.getElementById("multi").checked;
 	let divi = document.getElementById("divi").checked;
+	let potencia =document.getElementById("potencia").checked;
 
 	console.log(suma);
 	console.log(resta);
 	console.log(multi);
 	console.log(divi);
-
+	console.log(potencia);
 	//realizar la operacion 
 	if(suma){
 		resultado = n1 + n2;
@@ -29,6 +30,9 @@ function calcula(){
 	}
 	if(divi){
 		resultado = n1 / n2;
+	}
+	if(potencia){
+		resultado = Math.pow(n1,n2);
 	}
 
 	//mostrar los resultados

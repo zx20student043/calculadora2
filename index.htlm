@@ -50,6 +50,10 @@
                     <label class="form-label" for="divi">División</label>
                 </div>
 
+                <div class="mb-3 mt-3 form-check">
+                    <input type="radio" class="form-check-input" id="potencia" name="operacion" value="p">
+                    <label class="form-label" for="potencia">Potencia</label>
+                </div>
 
 
                 <div class="mb-3 mt-3">
