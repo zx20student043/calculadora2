@@ -18,6 +18,7 @@ function calcula(){
 	console.log(multi);
 	console.log(divi);
 	console.log(potencia);
+	
 	//realizar la operacion 
 	if(suma){
 		resultado = n1 + n2;

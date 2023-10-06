@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="row mt-3">
-
+        <!--Añadimos resultado para meter la solución de las operaciones-->
         <div class="col">
             <p class="display-1 text-center">Resultado</p>
             <p class="display-1 text-center" id="salida1"></p>
@@ -55,13 +55,14 @@
                     <label class="form-label" for="potencia">Potencia</label>
                 </div>
 
-
+            
                 <div class="mb-3 mt-3">
                     <button type="button" onclick="calcula()" class="btn btn-light">Calcular</button>
                 </div>
             </form>
         </div>
 
+        <!--Añadimos resultado para meter la solución de las operaciones-->
         <div class="col">
             <p class="display-1 text-center">Resultado</p>
             <p class="display-1 text-center" id="salida2"></p>
